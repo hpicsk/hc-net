@@ -1,0 +1,49 @@
+{
+  "results": {
+    "ethanol": {
+      "hybrid_hcnet": {
+        "best_val_mse": 0.07146868535450526,
+        "best_val_mae": 0.1927482613495418,
+        "test_mse": 0.0826221127063036,
+        "test_mae": 0.20439324900507927,
+        "mean_epoch_time": 1.780790479183197,
+        "n_params": 866083
+      },
+      "clifford_net": {
+        "best_val_mse": 0.867767368044172,
+        "best_val_mae": 0.6977170280047825,
+        "test_mse": 0.9352786652743816,
+        "test_mae": 0.7042211666703224,
+        "mean_epoch_time": 0.8239493036270141,
+        "n_params": 450915
+      },
+      "egnn": {
+        "best_val_mse": 0.9587416223117283,
+        "best_val_mae": 0.7337925093514579,
+        "test_mse": 1.0375441499054432,
+        "test_mae": 0.7530614137649536,
+        "mean_epoch_time": 0.6616796588897705,
+        "n_params": 398467
+      },
+      "baseline": {
+        "best_val_mse": 0.8106145262718201,
+        "best_val_mae": 0.6735053828784398,
+        "test_mse": 0.894888449460268,
+        "test_mae": 0.6922619044780731,
+        "mean_epoch_time": 0.5791660332679749,
+        "n_params": 332099
+      }
+    }
+  },
+  "config": {
+    "molecule": "ethanol",
+    "molecules": null,
+    "n_train": 1000,
+    "n_test": 500,
+    "n_epochs": 100,
+    "hidden_dim": 128,
+    "with_ood": false,
+    "seed": 42,
+    "device": "cuda"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "results": {
+    "ethanol": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 1.1016408205032349,
+        "test_force_mse_std": 0.0,
+        "test_force_mae_mean": 0.7872194051742554,
+        "test_force_mae_std": 0.0,
+        "test_energy_mse_mean": 6.174019813537598,
+        "test_energy_mse_std": 0.0,
+        "test_energy_mae_mean": 2.0757992267608643,
+        "test_energy_mae_std": 0.0,
+        "best_val_force_mse_mean": 0.9615263342857361,
+        "best_val_force_mse_std": 0.0,
+        "mean_epoch_time_mean": 0.46790456771850586,
+        "mean_epoch_time_std": 0.0,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 1.1016408205032349,
+            "test_force_mae": 0.7872194051742554,
+            "test_energy_mse": 6.174019813537598,
+            "test_energy_mae": 2.0757992267608643,
+            "best_val_force_mse": 0.9615263342857361,
+            "mean_epoch_time": 0.46790456771850586,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 1
+      }
+    }
+  },
+  "published_baselines": {
+    "NequIP": {
+      "aspirin": 8.8,
+      "benzene": 0.3,
+      "ethanol": 2.4,
+      "malonaldehyde": 3.6,
+      "naphthalene": 1.8,
+      "salicylic": 4.0,
+      "toluene": 1.6,
+      "uracil": 3.1
+    },
+    "MACE": {
+      "aspirin": 6.59,
+      "benzene": 0.27,
+      "ethanol": 2.1,
+      "malonaldehyde": 3.2,
+      "naphthalene": 1.3,
+      "salicylic": 3.3,
+      "toluene": 1.2,
+      "uracil": 2.6
+    },
+    "PaiNN": {
+      "aspirin": 12.6,
+      "benzene": 0.8,
+      "ethanol": 5.2,
+      "malonaldehyde": 7.2,
+      "naphthalene": 3.4,
+      "salicylic": 7.6,
+      "toluene": 3.0,
+      "uracil": 5.6
+    },
+    "SchNet": {
+      "aspirin": 23.1,
+      "benzene": 1.7,
+      "ethanol": 8.0,
+      "malonaldehyde": 11.2,
+      "naphthalene": 5.8,
+      "salicylic": 12.4,
+      "toluene": 5.5,
+      "uracil": 9.5
+    }
+  },
+  "config": {
+    "molecule": "ethanol",
+    "all_molecules": false,
+    "models": [
+      "hybrid_hcnet_energy"
+    ],
+    "n_train": 50,
+    "n_val": 20,
+    "n_test": 20,
+    "n_epochs": 2,
+    "batch_size": 32,
+    "hidden_dim": 128,
+    "lr": 0.001,
+    "seeds": [
+      42
+    ],
+    "device": "cuda"
+  }
+}

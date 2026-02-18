@@ -1,0 +1,95 @@
+\begin{thebibliography}{10}
+
+\bibitem{batatia2022mace}
+Ilyes Batatia, D{\'a}vid~P{\'e}ter Kov{\'a}cs, Gregor~NC Simm, Christoph
+  Ortner, and G{\'a}bor Cs{\'a}nyi.
+\newblock Mace: Higher order equivariant message passing neural networks for
+  fast and accurate force fields.
+\newblock In {\em NeurIPS}, 2022.
+
+\bibitem{batzner2022nequip}
+Simon Batzner, Albert Musaelian, Lixin Sun, Mario Geiger, Jonathan~P Mailoa,
+  Mordechai Kornbluth, Nicola Molinari, Tess~E Smidt, and Boris Kozinsky.
+\newblock E(3)-equivariant graph neural networks for data-efficient and
+  accurate interatomic potentials.
+\newblock {\em Nature Communications}, 13(1):2453, 2022.
+
+\bibitem{brehmer2023geometric}
+Johann Brehmer, Pim de~Haan, Sonke Weiler, and Taco Cohen.
+\newblock Geometric algebra transformer.
+\newblock In {\em NeurIPS}, 2023.
+
+\bibitem{chmiela2017machine}
+Stefan Chmiela, Alexandre Tkatchenko, Huziel~E Sauceda, Igor Poltavsky,
+  Kristof~T Sch{\"u}tt, and Klaus-Robert M{\"u}ller.
+\newblock Machine learning of accurate energy-conserving molecular force
+  fields.
+\newblock {\em Science Advances}, 3(5):e1603015, 2017.
+
+\bibitem{doran2003geometric}
+Chris Doran and Anthony Lasenby.
+\newblock {\em Geometric Algebra for Physicists}.
+\newblock Cambridge University Press, 2003.
+
+\bibitem{fuchs2020se3}
+Fabian~B Fuchs, Daniel~E Worrall, Volker Fischer, and Max Welling.
+\newblock Se(3)-transformers: 3d roto-translation equivariant attention
+  networks.
+\newblock In {\em NeurIPS}, 2020.
+
+\bibitem{hestenes1984clifford}
+David Hestenes and Garret Sobczyk.
+\newblock {\em Clifford Algebra to Geometric Calculus}.
+\newblock Springer, 1984.
+
+\bibitem{kang2026hcnet}
+Sungwoo Kang.
+\newblock Hc-net: Scalable geometric deep learning via linear-complexity
+  clifford algebra.
+\newblock 2026.
+\newblock Self-citation: original HC-Net in Cl(2,0).
+
+\bibitem{ruhe2023clifford}
+David Ruhe, Jayesh Gupta, Steven de~Haan, Baldur Mosber, and Patrick Forr{\'e}.
+\newblock Clifford group equivariant neural networks.
+\newblock In {\em NeurIPS}, 2023.
+
+\bibitem{satorras2021n}
+V{\'\i}ctor~Garcia Satorras, Emiel Hoogeboom, and Max Welling.
+\newblock E(n) equivariant graph neural networks.
+\newblock 2021.
+
+\bibitem{schutt2017schnet}
+Kristof~T Sch{\"u}tt, Pieter-Jan Kindermans, Huziel~E Sauceda, Stefan Chmiela,
+  Alexandre Tkatchenko, and Klaus-Robert M{\"u}ller.
+\newblock Schnet: A continuous-filter convolutional neural network for modeling
+  quantum interactions.
+\newblock In {\em NeurIPS}, 2017.
+
+\bibitem{schutt2021equivariant}
+Kristof~T Sch{\"u}tt, Oliver~T Unke, and Michael Gastegger.
+\newblock Equivariant message passing for the prediction of tensorial
+  properties and molecular spectra.
+\newblock {\em arXiv preprint arXiv:2102.03150}, 2021.
+
+\bibitem{lgatr2024}
+Johannes Spinner, Victor Bres{\'o}, Pim de~Haan, Tilman Plehn, Jesse Thaler,
+  and Johann Brehmer.
+\newblock Lorentz-equivariant geometric algebra transformers for high-energy
+  physics.
+\newblock In {\em NeurIPS}, 2024.
+
+\bibitem{szarvas2025conditional}
+B{\'a}lint~L Szarvas and Maxim Zhdanov.
+\newblock Conditional clifford-steerable cnns with complete kernel basis for
+  pde modeling.
+\newblock {\em arXiv preprint arXiv:2510.14007}, 2025.
+
+\bibitem{thomas2018tensor}
+Nathaniel Thomas, Tess Smidt, Steven Kearnes, Lusann Yang, Li~Li, Kai Kohlhoff,
+  and Patrick Riley.
+\newblock Tensor field networks: Rotation- and translation-equivariant neural
+  networks for 3d point clouds.
+\newblock {\em arXiv preprint arXiv:1802.08219}, 2018.
+
+\end{thebibliography}

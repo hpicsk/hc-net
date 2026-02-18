@@ -1,0 +1,196 @@
+{
+  "config": {
+    "n_particles_list": [
+      10,
+      50,
+      100,
+      500,
+      1000,
+      2000,
+      5000
+    ],
+    "models": [
+      "hybrid_hcnet",
+      "egnn3d",
+      "clifford3d",
+      "baseline3d"
+    ],
+    "batch_size": 16,
+    "hidden_dim": 128,
+    "n_layers": 4,
+    "n_warmup": 10,
+    "n_iterations": 50,
+    "device": "cuda",
+    "save_dir": "/home/st/math/hcnet_project/nips_hcnet/results"
+  },
+  "results": {
+    "hybrid_hcnet": {
+      "forward_times": {
+        "10": 4.675835147500038,
+        "50": 7.379241026937962,
+        "100": 5.669542625546455,
+        "500": 11.071953102946281,
+        "1000": 12.536438331007957,
+        "2000": 15.239111855626106,
+        "5000": 28.840814642608166
+      },
+      "backward_times": {
+        "10": 25.483119562268257,
+        "50": 25.0501199811697,
+        "100": 25.81762172281742,
+        "500": 36.342261508107185,
+        "1000": 27.838717475533485,
+        "2000": 29.531214460730553,
+        "5000": 44.29313987493515
+      },
+      "peak_memory_mb": {
+        "10": 4.775390625,
+        "50": 26.50732421875,
+        "100": 52.701171875,
+        "500": 266.91259765625,
+        "1000": 264.85986328125,
+        "2000": 445.9375,
+        "5000": 1354.67529296875
+      },
+      "n_params": {
+        "10": 850150,
+        "50": 850150,
+        "100": 850150,
+        "500": 850150,
+        "1000": 850150,
+        "2000": 850150,
+        "5000": 850150
+      },
+      "errors": {},
+      "complexity": {
+        "alpha": 0.2688837156991796,
+        "r_squared": 0.8990975511533074
+      }
+    },
+    "egnn3d": {
+      "forward_times": {
+        "10": 3.2170037925243378,
+        "50": 5.275932252407074,
+        "100": 16.231471486389637,
+        "500": 374.96255941689014,
+        "1000": 780.1090748980641,
+        "2000": 1460.6721314787865
+      },
+      "backward_times": {
+        "10": 16.59820929169655,
+        "50": 15.870517492294312,
+        "100": 38.91365587711334
+      },
+      "peak_memory_mb": {
+        "10": 4.14599609375,
+        "50": 102.3466796875,
+        "100": 400.11572265625
+      },
+      "n_params": {
+        "10": 565642,
+        "50": 565642,
+        "100": 565642,
+        "500": 565642,
+        "1000": 565642,
+        "2000": 565642,
+        "5000": 565642
+      },
+      "errors": {
+        "500": "CUDA out of memory. Tried to allocate 1.91 GiB. GPU 0 has a total capacity of 79.14 GiB of which 1.48 GiB is free. Process 2407819 has 77.63 GiB memory in use. Of the allocated memory 77.08 GiB is allocated by PyTorch, and 63.12 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "1000": "CUDA out of memory. Tried to allocate 3.82 GiB. GPU 0 has a total capacity of 79.14 GiB of which 139.25 MiB is free. Process 2407819 has 78.98 GiB memory in use. Of the allocated memory 77.03 GiB is allocated by PyTorch, and 1.45 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "2000": "CUDA out of memory. Tried to allocate 7.63 GiB. GPU 0 has a total capacity of 79.14 GiB of which 247.25 MiB is free. Process 2407819 has 78.88 GiB memory in use. Of the allocated memory 77.04 GiB is allocated by PyTorch, and 1.33 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)",
+        "5000": "CUDA out of memory. Tried to allocate 23.84 GiB. GPU 0 has a total capacity of 79.14 GiB of which 20.98 GiB is free. Process 2407819 has 58.14 GiB memory in use. Of the allocated memory 49.58 GiB is allocated by PyTorch, and 8.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+      },
+      "complexity": {
+        "alpha": 1.305475058246518,
+        "r_squared": 0.9470850002449699
+      }
+    },
+    "clifford3d": {
+      "forward_times": {
+        "10": 1.2406306713819504,
+        "50": 1.2872633710503578,
+        "100": 1.291586086153984,
+        "500": 1.646195836365223,
+        "1000": 1.6490759700536728,
+        "2000": 1.629638597369194,
+        "5000": 1.9476254656910896
+      },
+      "backward_times": {
+        "10": 7.356879711151123,
+        "50": 6.123927608132362,
+        "100": 6.3609908521175385,
+        "500": 7.371029853820801,
+        "1000": 7.1277109533548355,
+        "2000": 5.606586188077927,
+        "5000": 6.06056310236454
+      },
+      "peak_memory_mb": {
+        "10": 1.017578125,
+        "50": 5.0849609375,
+        "100": 10.1689453125,
+        "500": 51.7490234375,
+        "1000": 51.7490234375,
+        "2000": 51.7490234375,
+        "5000": 64.4912109375
+      },
+      "n_params": {
+        "10": 324414,
+        "50": 324414,
+        "100": 324414,
+        "500": 324414,
+        "1000": 324414,
+        "2000": 324414,
+        "5000": 324414
+      },
+      "errors": {},
+      "complexity": {
+        "alpha": 0.07316169855194504,
+        "r_squared": 0.8970240171018419
+      }
+    },
+    "baseline3d": {
+      "forward_times": {
+        "10": 0.3079327940940857,
+        "50": 0.31030982732772827,
+        "100": 0.31465981155633926,
+        "500": 0.3233664110302925,
+        "1000": 0.3185762092471123,
+        "2000": 0.32900433987379074,
+        "5000": 0.3218797594308853
+      },
+      "backward_times": {
+        "10": 1.4087050408124924,
+        "50": 1.3848000764846802,
+        "100": 1.443335935473442,
+        "500": 1.3615885376930237,
+        "1000": 1.3424233347177505,
+        "2000": 1.3883032649755478,
+        "5000": 1.3766229897737503
+      },
+      "peak_memory_mb": {
+        "10": 0.0322265625,
+        "50": 0.037109375,
+        "100": 0.0732421875,
+        "500": 0.3662109375,
+        "1000": 0.3662109375,
+        "2000": 0.3662109375,
+        "5000": 0.4580078125
+      },
+      "n_params": {
+        "10": 230460,
+        "50": 353580,
+        "100": 507480,
+        "500": 1738680,
+        "1000": 3277680,
+        "2000": 6355680,
+        "5000": 15589680
+      },
+      "errors": {},
+      "complexity": {
+        "alpha": 0.009391736768654905,
+        "r_squared": 0.7730765833744726
+      }
+    }
+  }
+}

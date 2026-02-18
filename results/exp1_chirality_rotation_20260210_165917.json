@@ -1,0 +1,62 @@
+{
+  "results": {
+    "vector_only": [
+      0.506,
+      0.514,
+      0.528
+    ],
+    "bivector": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "trivector": [
+      0.503,
+      0.509,
+      0.509
+    ],
+    "full_clifford": [
+      0.513,
+      0.514,
+      0.511
+    ],
+    "learned": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "summary": {
+    "vector_only": {
+      "mean": 0.516,
+      "std": 0.009092121131323912
+    },
+    "bivector": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "trivector": {
+      "mean": 0.507,
+      "std": 0.002828427124746193
+    },
+    "full_clifford": {
+      "mean": 0.5126666666666667,
+      "std": 0.0012472191289246482
+    },
+    "learned": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "config": {
+    "mode": "rotation",
+    "n_train": 5000,
+    "n_test": 1000,
+    "n_epochs": 80,
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "results": {
+    "vector_mf": {
+      "accs": [
+        0.54,
+        0.542,
+        0.538
+      ],
+      "mean_acc": 0.54,
+      "n_params": 4738
+    },
+    "bivector_mf": {
+      "accs": [
+        0.518,
+        0.524,
+        0.538
+      ],
+      "mean_acc": 0.5266666666666667,
+      "n_params": 4546
+    },
+    "trivector_mf": {
+      "accs": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_acc": 1.0,
+      "n_params": 4418
+    },
+    "full_clifford_mf": {
+      "accs": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_acc": 1.0,
+      "n_params": 4866
+    },
+    "clifford3d_clf": {
+      "accs": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_acc": 1.0,
+      "n_params": 324992
+    },
+    "hybrid_hcnet": {
+      "accs": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_acc": 1.0,
+      "n_params": 654026
+    },
+    "hybrid_no_triv": {
+      "accs": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "mean_acc": 1.0,
+      "n_params": 647492
+    }
+  },
+  "config": {
+    "mode": "chirality",
+    "n_train": 3000,
+    "n_test": 500,
+    "n_particles": 8,
+    "n_epochs": 100,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "device": "cuda"
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "summary": {
+    "scalar": {
+      "mean_acc": 0.5473333333333334,
+      "std_acc": 0.009177266598624143,
+      "all_acc": [
+        0.55,
+        0.557,
+        0.535
+      ]
+    },
+    "vector": {
+      "mean_acc": 0.5083333333333334,
+      "std_acc": 0.0020548046676563273,
+      "all_acc": [
+        0.508,
+        0.511,
+        0.506
+      ]
+    },
+    "bivector": {
+      "mean_acc": 1.0,
+      "std_acc": 0.0,
+      "all_acc": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  },
+  "all_results": {
+    "scalar": [
+      {
+        "model": "scalar",
+        "n_params": 4481,
+        "best_test_acc": 0.55,
+        "final_train_acc": 0.5072,
+        "final_test_acc": 0.547,
+        "final_train_loss": 0.6926490678787232,
+        "final_test_loss": 0.6916739482879639,
+        "training_time": 46.94683599472046,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2513,
+            "cw": 2487
+          },
+          "test_balance": {
+            "ccw": 492,
+            "cw": 508
+          },
+          "train_mean_abs_L": 27.320175170898438
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 42
+        }
+      },
+      {
+        "model": "scalar",
+        "n_params": 4481,
+        "best_test_acc": 0.557,
+        "final_train_acc": 0.5054,
+        "final_test_acc": 0.551,
+        "final_train_loss": 0.6927115863800049,
+        "final_test_loss": 0.6920159115791321,
+        "training_time": 45.09738755226135,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2513,
+            "cw": 2487
+          },
+          "test_balance": {
+            "ccw": 489,
+            "cw": 511
+          },
+          "train_mean_abs_L": 27.320072174072266
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 123
+        }
+      },
+      {
+        "model": "scalar",
+        "n_params": 4481,
+        "best_test_acc": 0.535,
+        "final_train_acc": 0.5002,
+        "final_test_acc": 0.499,
+        "final_train_loss": 0.6927473675727844,
+        "final_test_loss": 0.6926642589569092,
+        "training_time": 44.007471799850464,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2519,
+            "cw": 2481
+          },
+          "test_balance": {
+            "ccw": 494,
+            "cw": 506
+          },
+          "train_mean_abs_L": 27.3089656829834
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 456
+        }
+      }
+    ],
+    "vector": [
+      {
+        "model": "vector",
+        "n_params": 4481,
+        "best_test_acc": 0.508,
+        "final_train_acc": 0.5026,
+        "final_test_acc": 0.492,
+        "final_train_loss": 0.6931335567474365,
+        "final_test_loss": 0.6932410144805908,
+        "training_time": 48.37931704521179,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2513,
+            "cw": 2487
+          },
+          "test_balance": {
+            "ccw": 492,
+            "cw": 508
+          },
+          "train_mean_abs_L": 27.320175170898438
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 42
+        }
+      },
+      {
+        "model": "vector",
+        "n_params": 4481,
+        "best_test_acc": 0.511,
+        "final_train_acc": 0.5026,
+        "final_test_acc": 0.489,
+        "final_train_loss": 0.6931394063949585,
+        "final_test_loss": 0.6931885800361633,
+        "training_time": 49.21841239929199,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2513,
+            "cw": 2487
+          },
+          "test_balance": {
+            "ccw": 489,
+            "cw": 511
+          },
+          "train_mean_abs_L": 27.320072174072266
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 123
+        }
+      },
+      {
+        "model": "vector",
+        "n_params": 4481,
+        "best_test_acc": 0.506,
+        "final_train_acc": 0.5038,
+        "final_test_acc": 0.494,
+        "final_train_loss": 0.6931191969871521,
+        "final_test_loss": 0.6932941865921021,
+        "training_time": 42.16481375694275,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2519,
+            "cw": 2481
+          },
+          "test_balance": {
+            "ccw": 494,
+            "cw": 506
+          },
+          "train_mean_abs_L": 27.3089656829834
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 456
+        }
+      }
+    ],
+    "bivector": [
+      {
+        "model": "bivector",
+        "n_params": 4353,
+        "best_test_acc": 1.0,
+        "final_train_acc": 1.0,
+        "final_test_acc": 1.0,
+        "final_train_loss": 3.52154874271946e-06,
+        "final_test_loss": 3.5786584339803085e-06,
+        "training_time": 42.81347703933716,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2513,
+            "cw": 2487
+          },
+          "test_balance": {
+            "ccw": 492,
+            "cw": 508
+          },
+          "train_mean_abs_L": 27.320175170898438
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 42
+        }
+      },
+      {
+        "model": "bivector",
+        "n_params": 4353,
+        "best_test_acc": 1.0,
+        "final_train_acc": 1.0,
+        "final_test_acc": 1.0,
+        "final_train_loss": 3.5587738893809727e-06,
+        "final_test_loss": 3.6236127652955475e-06,
+        "training_time": 47.612069845199585,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2513,
+            "cw": 2487
+          },
+          "test_balance": {
+            "ccw": 489,
+            "cw": 511
+          },
+          "train_mean_abs_L": 27.320072174072266
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 123
+        }
+      },
+      {
+        "model": "bivector",
+        "n_params": 4353,
+        "best_test_acc": 1.0,
+        "final_train_acc": 1.0,
+        "final_test_acc": 1.0,
+        "final_train_loss": 2.9705982360610507e-06,
+        "final_test_loss": 2.869259122235235e-06,
+        "training_time": 44.2469162940979,
+        "dataset_stats": {
+          "train_balance": {
+            "ccw": 2519,
+            "cw": 2481
+          },
+          "test_balance": {
+            "ccw": 494,
+            "cw": 506
+          },
+          "train_mean_abs_L": 27.3089656829834
+        },
+        "config": {
+          "n_train": 5000,
+          "n_test": 1000,
+          "n_particles": 5,
+          "hidden_dim": 64,
+          "n_epochs": 100,
+          "batch_size": 128,
+          "lr": 0.001,
+          "seed": 456
+        }
+      }
+    ]
+  },
+  "config": {
+    "n_train": 5000,
+    "n_test": 1000,
+    "n_particles": 5,
+    "hidden_dim": 64,
+    "n_epochs": 100,
+    "batch_size": 128,
+    "lr": 0.001,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "device": "cuda",
+    "output_dir": "results/spinning_system"
+  },
+  "timestamp": "20260215_003855"
+}

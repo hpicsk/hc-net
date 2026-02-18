@@ -1,0 +1,121 @@
+{
+  "results": {
+    "malonaldehyde": {
+      "hybrid_hcnet": {
+        "best_val_mse": 0.20879550278186798,
+        "best_val_mae": 0.3407096905367715,
+        "test_mse": 0.21066271886229515,
+        "test_mae": 0.34195882081985474,
+        "mean_epoch_time": 1.6289671087265014,
+        "n_params": 866083
+      },
+      "clifford_net": {
+        "best_val_mse": 0.9142359580312457,
+        "best_val_mae": 0.7067458799907139,
+        "test_mse": 0.9932985715568066,
+        "test_mae": 0.7353220097720623,
+        "mean_epoch_time": 0.733963487148285,
+        "n_params": 450915
+      },
+      "egnn": {
+        "best_val_mse": 0.9177975228854588,
+        "best_val_mae": 0.7095116121428353,
+        "test_mse": 0.954142864793539,
+        "test_mae": 0.7208093330264091,
+        "mean_epoch_time": 0.6938090872764587,
+        "n_params": 398467
+      },
+      "baseline": {
+        "best_val_mse": 0.911905322756086,
+        "best_val_mae": 0.7077923502240863,
+        "test_mse": 0.974932424724102,
+        "test_mae": 0.7268643341958523,
+        "mean_epoch_time": 0.6054992651939393,
+        "n_params": 332099
+      }
+    },
+    "benzene": {
+      "hybrid_hcnet": {
+        "best_val_mse": 0.9513349192483085,
+        "best_val_mae": 0.713201642036438,
+        "test_mse": 0.9672620818018913,
+        "test_mae": 0.7243438586592674,
+        "mean_epoch_time": 2.145173189640045,
+        "n_params": 866083
+      },
+      "clifford_net": {
+        "best_val_mse": 0.9513957245009286,
+        "best_val_mae": 0.7131986277444022,
+        "test_mse": 0.966966200619936,
+        "test_mae": 0.7241805344820023,
+        "mean_epoch_time": 0.843240430355072,
+        "n_params": 450915
+      },
+      "egnn": {
+        "best_val_mse": 0.9513088038989476,
+        "best_val_mae": 0.7131473251751491,
+        "test_mse": 0.9666353613138199,
+        "test_mae": 0.7239025086164474,
+        "mean_epoch_time": 0.7256009340286255,
+        "n_params": 398467
+      },
+      "baseline": {
+        "best_val_mse": 0.9514929396765572,
+        "best_val_mae": 0.7132814696856907,
+        "test_mse": 0.9668175131082535,
+        "test_mae": 0.724074475467205,
+        "mean_epoch_time": 0.7509745168685913,
+        "n_params": 332099
+      }
+    },
+    "uracil": {
+      "hybrid_hcnet": {
+        "best_val_mse": 0.051507397421768734,
+        "best_val_mae": 0.16923204490116664,
+        "test_mse": 0.05394789157435298,
+        "test_mae": 0.17557687684893608,
+        "mean_epoch_time": 1.802262272834778,
+        "n_params": 866083
+      },
+      "clifford_net": {
+        "best_val_mse": 0.07735679937260491,
+        "best_val_mae": 0.18544575784887588,
+        "test_mse": 0.0839964565820992,
+        "test_mae": 0.1951668355613947,
+        "mean_epoch_time": 0.7271968507766724,
+        "n_params": 450915
+      },
+      "egnn": {
+        "best_val_mse": 0.6318303857530866,
+        "best_val_mae": 0.5714104175567627,
+        "test_mse": 0.8578169606626034,
+        "test_mae": 0.6543106772005558,
+        "mean_epoch_time": 0.8042156767845153,
+        "n_params": 398467
+      },
+      "baseline": {
+        "best_val_mse": 0.1751165006841932,
+        "best_val_mae": 0.2955065241881779,
+        "test_mse": 0.17496573366224766,
+        "test_mae": 0.29844761826097965,
+        "mean_epoch_time": 0.7157857680320739,
+        "n_params": 332099
+      }
+    }
+  },
+  "config": {
+    "molecule": "ethanol",
+    "molecules": [
+      "malonaldehyde",
+      "benzene",
+      "uracil"
+    ],
+    "n_train": 1000,
+    "n_test": 500,
+    "n_epochs": 100,
+    "hidden_dim": 128,
+    "with_ood": false,
+    "seed": 42,
+    "device": "cuda"
+  }
+}

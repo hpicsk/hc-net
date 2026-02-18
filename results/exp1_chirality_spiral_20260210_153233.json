@@ -1,0 +1,62 @@
+{
+  "results": {
+    "vector_only": [
+      0.538,
+      0.518,
+      0.5
+    ],
+    "bivector": [
+      0.514,
+      0.53,
+      0.522
+    ],
+    "trivector": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "full_clifford": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "learned": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "summary": {
+    "vector_only": {
+      "mean": 0.5186666666666667,
+      "std": 0.015520595635763768
+    },
+    "bivector": {
+      "mean": 0.522,
+      "std": 0.0065319726474218145
+    },
+    "trivector": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "full_clifford": {
+      "mean": 1.0,
+      "std": 0.0
+    },
+    "learned": {
+      "mean": 1.0,
+      "std": 0.0
+    }
+  },
+  "config": {
+    "mode": "spiral",
+    "n_train": 3000,
+    "n_test": 500,
+    "n_epochs": 80,
+    "seeds": [
+      42,
+      123,
+      456
+    ]
+  }
+}

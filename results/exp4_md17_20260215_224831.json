@@ -1,0 +1,899 @@
+{
+  "results": {
+    "aspirin": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.0054245343344518915,
+        "test_force_mse_std": 0.0023017163605122005,
+        "test_force_mae_mean": 0.05295342820075651,
+        "test_force_mae_std": 0.011237390731291536,
+        "test_force_mae_mev_mean": 64.09502391024972,
+        "test_force_mae_mev_std": 13.625916152985956,
+        "test_energy_mse_mean": 0.7802304858341813,
+        "test_energy_mse_std": 0.09968966887422712,
+        "test_energy_mae_mean": 0.716825919225812,
+        "test_energy_mae_std": 0.053003886811607184,
+        "force_std_mean": 27.91009267171224,
+        "force_std_std": 0.02045723462250431,
+        "best_val_force_mse_mean": 0.004745860055360633,
+        "best_val_force_mse_std": 0.0022741882937403536,
+        "mean_epoch_time_mean": 28.83183698018392,
+        "mean_epoch_time_std": 1.1464398993694265,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.0031433342373929918,
+            "test_force_mae": 0.04155190952587873,
+            "test_force_mae_mev": 50.238936046597175,
+            "test_energy_mse": 0.6417664363980293,
+            "test_energy_mae": 0.6445596814155579,
+            "force_std": 27.881690979003906,
+            "best_val_force_mse": 0.0024383626296184957,
+            "mean_epoch_time": 27.321435947418212,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.004554178914986551,
+            "test_force_mae": 0.04906656767707318,
+            "test_force_mae_mev": 59.42543841411266,
+            "test_energy_mse": 0.8724369611591101,
+            "test_energy_mae": 0.7702017519623041,
+            "force_std": 27.92906379699707,
+            "best_val_force_mse": 0.003959379318985157,
+            "mean_epoch_time": 30.097432641983033,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.008576089850976132,
+            "test_force_mae": 0.06824180739931762,
+            "test_force_mae_mev": 82.62069727003932,
+            "test_energy_mse": 0.8264880599454045,
+            "test_energy_mae": 0.7357163242995739,
+            "force_std": 27.919523239135742,
+            "best_val_force_mse": 0.007839838217478245,
+            "mean_epoch_time": 29.07664235115051,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.43174691032618284,
+        "test_force_mse_std": 0.045493340949771026,
+        "test_force_mae_mean": 0.47583275008946657,
+        "test_force_mae_std": 0.02773813462700941,
+        "test_force_mae_mev_mean": 575.906468202059,
+        "test_force_mae_mev_std": 33.71600197276148,
+        "force_std_mean": 27.91009267171224,
+        "force_std_std": 0.02045723462250431,
+        "best_val_force_mse_mean": 0.4287804377575715,
+        "best_val_force_mse_std": 0.050933270795994474,
+        "mean_epoch_time_mean": 2.783678966363271,
+        "mean_epoch_time_std": 0.08353369745000583,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.39605469163507223,
+            "test_force_mae": 0.45629276521503925,
+            "test_force_mae_mev": 551.6873547264145,
+            "force_std": 27.881690979003906,
+            "best_val_force_mse": 0.38062500953674316,
+            "mean_epoch_time": 2.665578660964966,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.4032355472445488,
+            "test_force_mae": 0.45614518132060766,
+            "test_force_mae_mev": 552.4459660366228,
+            "force_std": 27.92906379699707,
+            "best_val_force_mse": 0.40646754764020443,
+            "mean_epoch_time": 2.8451900768280027,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.4959504920989275,
+            "test_force_mae": 0.5150603037327528,
+            "test_force_mae_mev": 623.5860838431397,
+            "force_std": 27.919523239135742,
+            "best_val_force_mse": 0.499248756095767,
+            "mean_epoch_time": 2.8402681612968443,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    },
+    "benzene": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.8378607506553332,
+        "test_force_mse_std": 0.10758250701532424,
+        "test_force_mae_mean": 0.6662846300750971,
+        "test_force_mae_std": 0.047058397118256386,
+        "test_force_mae_mev_mean": 572.3991099303463,
+        "test_force_mae_mev_std": 40.223280832647525,
+        "test_energy_mse_mean": 4.4068143314992385,
+        "test_energy_mse_std": 4.7499164051006995,
+        "test_energy_mae_mean": 1.6204398646950722,
+        "test_energy_mae_std": 1.1154835818918665,
+        "force_std_mean": 19.81160608927409,
+        "force_std_std": 0.010289861722096129,
+        "best_val_force_mse_mean": 0.7665849886834621,
+        "best_val_force_mse_std": 0.046724851247519884,
+        "mean_epoch_time_mean": 27.704009653727216,
+        "mean_epoch_time_std": 0.11780353459384052,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.7916728500276804,
+            "test_force_mae": 0.6441659927368164,
+            "test_force_mae_mev": 553.2228354557697,
+            "test_energy_mse": 0.8977978052571416,
+            "test_energy_mae": 0.7666986286640167,
+            "force_std": 19.804868698120117,
+            "best_val_force_mse": 0.806059904396534,
+            "mean_epoch_time": 27.6245298743248,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.9864975307136774,
+            "test_force_mae": 0.7317021451890469,
+            "test_force_mae_mev": 628.3668909175582,
+            "test_energy_mse": 1.200711639598012,
+            "test_energy_mae": 0.8984850570559502,
+            "force_std": 19.803804397583008,
+            "best_val_force_mse": 0.7927399687469006,
+            "mean_epoch_time": 27.87055148601532,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.7354118712246418,
+            "test_force_mae": 0.622985752299428,
+            "test_force_mae_mev": 535.6076034177112,
+            "test_energy_mse": 11.121933549642563,
+            "test_energy_mae": 3.1961359083652496,
+            "force_std": 19.82614517211914,
+            "best_val_force_mse": 0.7009550929069519,
+            "mean_epoch_time": 27.616947600841524,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.9998679502556721,
+        "test_force_mse_std": 0.017376277928681606,
+        "test_force_mae_mean": 0.7353660048296055,
+        "test_force_mae_std": 0.004832292965899765,
+        "test_force_mae_mev_mean": 631.764244445587,
+        "test_force_mae_mev_std": 4.479042857514093,
+        "force_std_mean": 19.81160608927409,
+        "force_std_std": 0.010289861722096129,
+        "best_val_force_mse_mean": 0.9888174831867218,
+        "best_val_force_mse_std": 0.008727382076563647,
+        "mean_epoch_time_mean": 2.5219216752052307,
+        "mean_epoch_time_std": 0.09582079863451708,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.9878326300531626,
+            "test_force_mae": 0.7315155807882547,
+            "test_force_mae_mev": 628.2404354572859,
+            "force_std": 19.804868698120117,
+            "best_val_force_mse": 1.0000880844891071,
+            "mean_epoch_time": 2.3910232067108153,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.9873312078416348,
+            "test_force_mae": 0.7324017118662596,
+            "test_force_mae_mev": 628.967660699142,
+            "force_std": 19.803804397583008,
+            "best_val_force_mse": 0.9875388965010643,
+            "mean_epoch_time": 2.557012526988983,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 1.024440012872219,
+            "test_force_mae": 0.742180721834302,
+            "test_force_mae_mev": 638.0846371803332,
+            "force_std": 19.82614517211914,
+            "best_val_force_mse": 0.978825468569994,
+            "mean_epoch_time": 2.6177292919158934,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    },
+    "ethanol": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.001946214827815614,
+        "test_force_mse_std": 0.0004646592526921162,
+        "test_force_mae_mean": 0.03188329223000134,
+        "test_force_mae_std": 0.003767059627047787,
+        "test_force_mae_mev_mean": 36.28056751061786,
+        "test_force_mae_mev_std": 4.319495398082615,
+        "test_energy_mse_mean": 0.7756377030164003,
+        "test_energy_mse_std": 0.08615754601640878,
+        "test_energy_mae_mean": 0.7103148844713966,
+        "test_energy_mae_std": 0.06123392966471581,
+        "force_std_mean": 26.23837153116862,
+        "force_std_std": 0.03765767094330197,
+        "best_val_force_mse_mean": 0.0015906278640613891,
+        "best_val_force_mse_std": 0.00016318130899149443,
+        "mean_epoch_time_mean": 29.034561824798583,
+        "mean_epoch_time_std": 1.3718990099825803,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.0024870183115126565,
+            "test_force_mae": 0.036092173715587705,
+            "test_force_mae_mev": 41.146002136147445,
+            "test_energy_mse": 0.689780748449266,
+            "test_energy_mae": 0.6380030820146203,
+            "force_std": 26.28961753845215,
+            "best_val_force_mse": 0.0013724671662203036,
+            "mean_epoch_time": 30.78739599466324,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.0013525314352591522,
+            "test_force_mae": 0.02695040759863332,
+            "test_force_mae_mev": 30.648987873587036,
+            "test_energy_mse": 0.743692141957581,
+            "test_energy_mae": 0.7052076831459999,
+            "force_std": 26.225299835205078,
+            "best_val_force_mse": 0.0016345419498975389,
+            "mean_epoch_time": 27.43783951282501,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.0019990947366750333,
+            "test_force_mae": 0.032607295375782996,
+            "test_force_mae_mev": 37.046712522119094,
+            "test_energy_mse": 0.893440218642354,
+            "test_energy_mae": 0.7877338882535696,
+            "force_std": 26.200197219848633,
+            "best_val_force_mse": 0.0017648744760663249,
+            "mean_epoch_time": 28.8784499669075,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.8624881586680809,
+        "test_force_mse_std": 0.008045102026964367,
+        "test_force_mae_mean": 0.6728726886212826,
+        "test_force_mae_std": 0.0015552295288588226,
+        "test_force_mae_mev_mean": 765.5978704695204,
+        "test_force_mae_mev_std": 2.4425352473509783,
+        "force_std_mean": 26.23837153116862,
+        "force_std_std": 0.03765767094330197,
+        "best_val_force_mse_mean": 0.8673754980166754,
+        "best_val_force_mse_std": 0.025590712536833277,
+        "mean_epoch_time_mean": 2.1882086809476218,
+        "mean_epoch_time_std": 0.3305079973786061,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.8720406126230955,
+            "test_force_mae": 0.674299843609333,
+            "test_force_mae_mev": 768.7190864198611,
+            "force_std": 26.28961753845215,
+            "best_val_force_mse": 0.8401289284229279,
+            "mean_epoch_time": 1.786570360660553,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.8630643580108881,
+            "test_force_mae": 0.670709790661931,
+            "test_force_mae_mev": 762.7556713367136,
+            "force_std": 26.225299835205078,
+            "best_val_force_mse": 0.8603700362145901,
+            "mean_epoch_time": 2.1819812297821044,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.8523595053702593,
+            "test_force_mae": 0.6736084315925837,
+            "test_force_mae_mev": 765.3188536519868,
+            "force_std": 26.200197219848633,
+            "best_val_force_mse": 0.901627529412508,
+            "mean_epoch_time": 2.5960744524002077,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    },
+    "malonaldehyde": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.00936724767962005,
+        "test_force_mse_std": 0.002779763618432902,
+        "test_force_mae_mean": 0.06744411083248754,
+        "test_force_mae_std": 0.010526129973931691,
+        "test_force_mae_mev_mean": 83.76320224134732,
+        "test_force_mae_mev_std": 13.05264923802785,
+        "test_energy_mse_mean": 0.8358833808451891,
+        "test_energy_mse_std": 0.015344841165889656,
+        "test_energy_mae_mean": 0.7268475393454233,
+        "test_energy_mae_std": 0.025411778021795596,
+        "force_std_mean": 28.641088485717773,
+        "force_std_std": 0.05142593881341843,
+        "best_val_force_mse_mean": 0.007886430103098974,
+        "best_val_force_mse_std": 0.001731723827357132,
+        "mean_epoch_time_mean": 31.034271269639333,
+        "mean_epoch_time_std": 2.251609725306633,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.012341648718575016,
+            "test_force_mae": 0.0774342359509319,
+            "test_force_mae_mev": 95.97828018449162,
+            "test_energy_mse": 0.856505298987031,
+            "test_energy_mae": 0.7625130452215672,
+            "force_std": 28.583118438720703,
+            "best_val_force_mse": 0.008615641534561291,
+            "mean_epoch_time": 28.727560887336733,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.010106104775331914,
+            "test_force_mae": 0.07200661953538656,
+            "test_force_mae_mev": 89.64112868955198,
+            "test_energy_mse": 0.8314246516674757,
+            "test_energy_mae": 0.7051916383206844,
+            "force_std": 28.708106994628906,
+            "best_val_force_mse": 0.009546543908072636,
+            "mean_epoch_time": 34.088661689758304,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.00565398954495322,
+            "test_force_mae": 0.05289147701114416,
+            "test_force_mae_mev": 65.67019784999836,
+            "test_energy_mse": 0.8197201918810606,
+            "test_energy_mae": 0.7128379344940186,
+            "force_std": 28.63204002380371,
+            "best_val_force_mse": 0.005497104866662994,
+            "mean_epoch_time": 30.286591231822968,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.9967879597097635,
+        "test_force_mse_std": 0.00899142320797787,
+        "test_force_mae_mean": 0.7308323302616676,
+        "test_force_mae_std": 0.004143817462201705,
+        "test_force_mae_mev_mean": 907.6838924277921,
+        "test_force_mae_mev_std": 4.228632489172066,
+        "force_std_mean": 28.641088485717773,
+        "force_std_std": 0.05142593881341843,
+        "best_val_force_mse_mean": 1.0024706646800041,
+        "best_val_force_mse_std": 0.002650925254927839,
+        "mean_epoch_time_mean": 2.245142423311869,
+        "mean_epoch_time_std": 0.21554639077672175,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.9888677094131708,
+            "test_force_mae": 0.7313644662499428,
+            "test_force_mae_mev": 906.5125108640449,
+            "force_std": 28.583118438720703,
+            "best_val_force_mse": 1.0020092986524105,
+            "mean_epoch_time": 2.3452649188041685,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.9921329375356436,
+            "test_force_mae": 0.7255121096968651,
+            "test_force_mae_mev": 903.1909123188905,
+            "force_std": 28.708106994628906,
+            "best_val_force_mse": 0.9994793199002743,
+            "mean_epoch_time": 1.9457380700111389,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 1.0093632321804762,
+            "test_force_mae": 0.7356204148381948,
+            "test_force_mae_mev": 913.3482541004408,
+            "force_std": 28.63204002380371,
+            "best_val_force_mse": 1.0059233754873276,
+            "mean_epoch_time": 2.4444242811203,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    },
+    "naphthalene": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.0027982163992419373,
+        "test_force_mse_std": 0.0019222635615282642,
+        "test_force_mae_mean": 0.03576195259423306,
+        "test_force_mae_std": 0.011362936384564667,
+        "test_force_mae_mev_mean": 44.47776498876896,
+        "test_force_mae_mev_std": 14.096167217336298,
+        "test_energy_mse_mean": 0.7462371677781144,
+        "test_energy_mse_std": 0.04362702651152267,
+        "test_energy_mae_mean": 0.6937790662050247,
+        "test_energy_mae_std": 0.03206849301808421,
+        "force_std_mean": 28.687986373901367,
+        "force_std_std": 0.046562983816480344,
+        "best_val_force_mse_mean": 0.0014490608773485292,
+        "best_val_force_mse_std": 0.0004858430096874705,
+        "mean_epoch_time_mean": 28.101923149426778,
+        "mean_epoch_time_std": 0.4740271487353201,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.005511563475010917,
+            "test_force_mae": 0.05179126129951328,
+            "test_force_mae_mev": 64.36740277805892,
+            "test_energy_mse": 0.7049530921503901,
+            "test_energy_mae": 0.660543529316783,
+            "force_std": 28.66019630432129,
+            "best_val_force_mse": 0.002117962001648266,
+            "mean_epoch_time": 27.483042056560517,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.00129677914083004,
+            "test_force_mae": 0.026762193301692605,
+            "test_force_mae_mev": 33.369061741279346,
+            "test_energy_mse": 0.8065868243575096,
+            "test_energy_mae": 0.7371200770139694,
+            "force_std": 28.753582000732422,
+            "best_val_force_mse": 0.000978619103989331,
+            "mean_epoch_time": 28.188221921920775,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.0015863065818848554,
+            "test_force_mae": 0.028732403181493282,
+            "test_force_mae_mev": 35.696830446968626,
+            "test_energy_mse": 0.7271715868264437,
+            "test_energy_mae": 0.6836735922843218,
+            "force_std": 28.65018081665039,
+            "best_val_force_mse": 0.0012506015264079906,
+            "mean_epoch_time": 28.63450546979904,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.985858146722118,
+        "test_force_mse_std": 0.005972035166073664,
+        "test_force_mae_mean": 0.7136089553435644,
+        "test_force_mae_std": 0.00295388920731999,
+        "test_force_mae_mev_mean": 887.755597288408,
+        "test_force_mae_mev_std": 5.0505066515523005,
+        "force_std_mean": 28.687986373901367,
+        "force_std_std": 0.046562983816480344,
+        "best_val_force_mse_mean": 1.007516548037529,
+        "best_val_force_mse_std": 0.013416760671773819,
+        "mean_epoch_time_mean": 2.556987442175547,
+        "mean_epoch_time_std": 0.2470190156718332,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.9817254021763802,
+            "test_force_mae": 0.7106071803718805,
+            "test_force_mae_mev": 883.1593872846547,
+            "force_std": 28.66019630432129,
+            "best_val_force_mse": 1.026453498750925,
+            "mean_epoch_time": 2.705842385292053,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.9943032432347536,
+            "test_force_mae": 0.7176258321851492,
+            "test_force_mae_mev": 894.788421538256,
+            "force_std": 28.753582000732422,
+            "best_val_force_mse": 0.9970194213092327,
+            "mean_epoch_time": 2.7562555050849915,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.9815457947552204,
+            "test_force_mae": 0.7125938534736633,
+            "test_force_mae_mev": 885.3189830423136,
+            "force_std": 28.65018081665039,
+            "best_val_force_mse": 0.9990767240524292,
+            "mean_epoch_time": 2.208864436149597,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    },
+    "salicylic": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.004993505058034013,
+        "test_force_mse_std": 0.0015751823077802456,
+        "test_force_mae_mean": 0.05028493520027647,
+        "test_force_mae_std": 0.008036451691095632,
+        "test_force_mae_mev_mean": 62.277937113112586,
+        "test_force_mae_mev_std": 9.885889922959255,
+        "test_energy_mse_mean": 0.7632727799937129,
+        "test_energy_mse_std": 0.05916806146011774,
+        "test_energy_mae_mean": 0.6864364439000686,
+        "test_energy_mae_std": 0.020512374710035124,
+        "force_std_mean": 28.56632359822591,
+        "force_std_std": 0.042094511385763866,
+        "best_val_force_mse_mean": 0.003685887723501461,
+        "best_val_force_mse_std": 0.0008527412013726134,
+        "mean_epoch_time_mean": 26.36718248208364,
+        "mean_epoch_time_std": 1.1044005845551301,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.005656226159771904,
+            "test_force_mae": 0.055232500773854554,
+            "test_force_mae_mev": 68.30114476232689,
+            "test_energy_mse": 0.8226123955100775,
+            "test_energy_mae": 0.6898144297301769,
+            "force_std": 28.51694107055664,
+            "best_val_force_mse": 0.0040331880445592105,
+            "mean_epoch_time": 26.526824333667754,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.002820297740981914,
+            "test_force_mae": 0.038950112415477633,
+            "test_force_mae_mev": 48.33989944373541,
+            "test_energy_mse": 0.7846950143575668,
+            "test_energy_mae": 0.7096989676356316,
+            "force_std": 28.61980628967285,
+            "best_val_force_mse": 0.0025120934733422473,
+            "mean_epoch_time": 27.632886300086977,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.00650399127334822,
+            "test_force_mae": 0.056672192411497235,
+            "test_force_mae_mev": 70.19276713327545,
+            "test_energy_mse": 0.6825109301134944,
+            "test_energy_mae": 0.6597959343343973,
+            "force_std": 28.562223434448242,
+            "best_val_force_mse": 0.004512381652602926,
+            "mean_epoch_time": 24.941836812496184,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.5461786139446,
+        "test_force_mse_std": 0.3522439724967937,
+        "test_force_mae_mean": 0.48353387089446187,
+        "test_force_mae_std": 0.20516301493264644,
+        "test_force_mae_mev_mean": 598.7252136665705,
+        "test_force_mae_mev_std": 253.80269085870754,
+        "force_std_mean": 28.56632359822591,
+        "force_std_std": 0.042094511385763866,
+        "best_val_force_mse_mean": 0.49880276961872977,
+        "best_val_force_mse_std": 0.35634929116027697,
+        "mean_epoch_time_mean": 2.4125300923983253,
+        "mean_epoch_time_std": 0.20416232416861665,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.5568857230246067,
+            "test_force_mae": 0.5274715814739466,
+            "test_force_mae_mev": 652.2774152808162,
+            "force_std": 28.51694107055664,
+            "best_val_force_mse": 0.42805174365639687,
+            "mean_epoch_time": 2.2037730288505553,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.10951572423800826,
+            "test_force_mae": 0.2131904955022037,
+            "test_force_mae_mev": 264.58478489118573,
+            "force_std": 28.61980628967285,
+            "best_val_force_mse": 0.10206377785652876,
+            "mean_epoch_time": 2.3441696643829344,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.9721343945711851,
+            "test_force_mae": 0.7099395357072353,
+            "test_force_mae_mev": 879.3134408277099,
+            "force_std": 28.562223434448242,
+            "best_val_force_mse": 0.9662927873432636,
+            "mean_epoch_time": 2.6896475839614866,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    },
+    "toluene": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.007984795402686965,
+        "test_force_mse_std": 0.005618451278504734,
+        "test_force_mae_mean": 0.06144504472225284,
+        "test_force_mae_std": 0.027142055683645777,
+        "test_force_mae_mev_mean": 72.82975386612792,
+        "test_force_mae_mev_std": 32.25082358244611,
+        "test_energy_mse_mean": 0.8125465133537849,
+        "test_energy_mse_std": 0.16052051213748145,
+        "test_energy_mae_mean": 0.7246223438220719,
+        "test_energy_mae_std": 0.08304528982635727,
+        "force_std_mean": 27.307863235473633,
+        "force_std_std": 0.06907684235379054,
+        "best_val_force_mse_mean": 0.006330779790005181,
+        "best_val_force_mse_std": 0.0062333198732866715,
+        "mean_epoch_time_mean": 26.168504504362744,
+        "mean_epoch_time_std": 1.3812730257269437,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.015028643188998103,
+            "test_force_mae": 0.09279394592158496,
+            "test_force_mae_mev": 110.02657731932756,
+            "test_energy_mse": 1.0380859076976776,
+            "test_energy_mae": 0.840897498652339,
+            "force_std": 27.34309196472168,
+            "best_val_force_mse": 0.01509593246737495,
+            "mean_epoch_time": 28.117536273002624,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.0012787470732291695,
+            "test_force_mae": 0.026588008913677186,
+            "test_force_mae_mev": 31.373724670449743,
+            "test_energy_mse": 0.6774331722408533,
+            "test_energy_mae": 0.652172306086868,
+            "force_std": 27.211339950561523,
+            "best_val_force_mse": 0.0011354987873346545,
+            "mean_epoch_time": 25.08072286605835,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.007646995945833623,
+            "test_force_mae": 0.06495317933149636,
+            "test_force_mae_mev": 77.08895960860644,
+            "test_energy_mse": 0.7221204601228237,
+            "test_energy_mae": 0.6807972267270088,
+            "force_std": 27.369157791137695,
+            "best_val_force_mse": 0.002760908115305938,
+            "mean_epoch_time": 25.307254374027252,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.725258776297172,
+        "test_force_mse_std": 0.06925096156569134,
+        "test_force_mae_mean": 0.607327821974953,
+        "test_force_mae_std": 0.043099545167344454,
+        "test_force_mae_mev_mean": 719.1228901823401,
+        "test_force_mae_mev_std": 50.252227944447945,
+        "force_std_mean": 27.307863235473633,
+        "force_std_std": 0.06907684235379054,
+        "best_val_force_mse_mean": 0.7252725933988889,
+        "best_val_force_mse_std": 0.0644475558838746,
+        "mean_epoch_time_mean": 2.2204020698865254,
+        "mean_epoch_time_std": 0.13685459444144094,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.7948208022862673,
+            "test_force_mae": 0.6461723148822784,
+            "test_force_mae_mev": 766.1720542101236,
+            "force_std": 27.34309196472168,
+            "best_val_force_mse": 0.785826850682497,
+            "mean_epoch_time": 2.1624990034103395,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.7501802500337362,
+            "test_force_mae": 0.6285833977162838,
+            "test_force_mae_mev": 741.7254340629388,
+            "force_std": 27.211339950561523,
+            "best_val_force_mse": 0.7539879865944386,
+            "mean_epoch_time": 2.08941862821579,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.6307752765715122,
+            "test_force_mae": 0.5472277533262968,
+            "test_force_mae_mev": 649.4711822739579,
+            "force_std": 27.369157791137695,
+            "best_val_force_mse": 0.6360029429197311,
+            "mean_epoch_time": 2.4092885780334474,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    },
+    "uracil": {
+      "hybrid_hcnet_energy": {
+        "test_force_mse_mean": 0.016791727362336435,
+        "test_force_mse_std": 0.015834376581637884,
+        "test_force_mae_mean": 0.08326234746103485,
+        "test_force_mae_std": 0.04237631250511484,
+        "test_force_mae_mev_mean": 108.55236153390918,
+        "test_force_mae_mev_std": 55.328845525314534,
+        "test_energy_mse_mean": 0.840885717732211,
+        "test_energy_mse_std": 0.06492310604388662,
+        "test_energy_mae_mean": 0.7404067162424326,
+        "test_energy_mae_std": 0.04092292559784972,
+        "force_std_mean": 30.05412991841634,
+        "force_std_std": 0.05573704542743364,
+        "best_val_force_mse_mean": 0.005158744301297702,
+        "best_val_force_mse_std": 0.0003705341703021965,
+        "mean_epoch_time_mean": 23.089020694891612,
+        "mean_epoch_time_std": 0.8317753268225194,
+        "n_params_mean": 865825.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.0391844172263518,
+            "test_force_mae": 0.14318346977233887,
+            "test_force_mae_mev": 186.7857703364012,
+            "test_energy_mse": 0.8364860285073519,
+            "test_energy_mae": 0.7507730275392532,
+            "force_std": 30.08296012878418,
+            "best_val_force_mse": 0.005425866838777438,
+            "mean_epoch_time": 22.20160808801651,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.00572500914131524,
+            "test_force_mae": 0.054151561576873064,
+            "test_force_mae_mev": 70.68946377756428,
+            "test_energy_mse": 0.9225084595382214,
+            "test_energy_mae": 0.7845331281423569,
+            "force_std": 30.103248596191406,
+            "best_val_force_mse": 0.00541560270357877,
+            "mean_epoch_time": 24.20141933441162,
+            "n_params": 865825
+          },
+          {
+            "test_force_mse": 0.005465755719342269,
+            "test_force_mae": 0.05245201103389263,
+            "test_force_mae_mev": 68.18185048776203,
+            "test_energy_mse": 0.7636626651510596,
+            "test_energy_mae": 0.6859139930456877,
+            "force_std": 29.976181030273438,
+            "best_val_force_mse": 0.004634763361536898,
+            "mean_epoch_time": 22.864034662246706,
+            "n_params": 865825
+          }
+        ],
+        "n_seeds": 3
+      },
+      "egnn": {
+        "test_force_mse_mean": 0.10623233082393806,
+        "test_force_mse_std": 0.006181532560851411,
+        "test_force_mae_mean": 0.21325012824187675,
+        "test_force_mae_std": 0.011529096040397856,
+        "test_force_mae_mev_mean": 277.91571509286376,
+        "test_force_mae_mev_std": 14.919439849985551,
+        "force_std_mean": 30.05412991841634,
+        "force_std_std": 0.05573704542743364,
+        "best_val_force_mse_mean": 0.10027100906396906,
+        "best_val_force_mse_std": 0.005921713195801555,
+        "mean_epoch_time_mean": 2.121393144130707,
+        "mean_epoch_time_std": 0.10315201470123347,
+        "n_params_mean": 398467.0,
+        "n_params_std": 0.0,
+        "per_seed": [
+          {
+            "test_force_mse": 0.097827059449628,
+            "test_force_mae": 0.19707550294697285,
+            "test_force_mae_mev": 257.08903193164133,
+            "force_std": 30.08296012878418,
+            "best_val_force_mse": 0.0932295355014503,
+            "mean_epoch_time": 2.1076590609550476,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.11251597036607563,
+            "test_force_mae": 0.2231168244034052,
+            "test_force_mae_mev": 291.25676559557536,
+            "force_std": 30.103248596191406,
+            "best_val_force_mse": 0.10771771939471364,
+            "mean_epoch_time": 2.0024864268302918,
+            "n_params": 398467
+          },
+          {
+            "test_force_mse": 0.10835396265611053,
+            "test_force_mae": 0.21955805737525225,
+            "test_force_mae_mev": 285.40134775137454,
+            "force_std": 29.976181030273438,
+            "best_val_force_mse": 0.09986577229574323,
+            "mean_epoch_time": 2.254033944606781,
+            "n_params": 398467
+          }
+        ],
+        "n_seeds": 3
+      }
+    }
+  },
+  "published_baselines": {
+    "NequIP": {
+      "aspirin": 8.8,
+      "benzene": 0.3,
+      "ethanol": 2.4,
+      "malonaldehyde": 3.6,
+      "naphthalene": 1.8,
+      "salicylic": 4.0,
+      "toluene": 1.6,
+      "uracil": 3.1
+    },
+    "MACE": {
+      "aspirin": 6.59,
+      "benzene": 0.27,
+      "ethanol": 2.1,
+      "malonaldehyde": 3.2,
+      "naphthalene": 1.3,
+      "salicylic": 3.3,
+      "toluene": 1.2,
+      "uracil": 2.6
+    },
+    "PaiNN": {
+      "aspirin": 12.6,
+      "benzene": 0.8,
+      "ethanol": 5.2,
+      "malonaldehyde": 7.2,
+      "naphthalene": 3.4,
+      "salicylic": 7.6,
+      "toluene": 3.0,
+      "uracil": 5.6
+    },
+    "SchNet": {
+      "aspirin": 23.1,
+      "benzene": 1.7,
+      "ethanol": 8.0,
+      "malonaldehyde": 11.2,
+      "naphthalene": 5.8,
+      "salicylic": 12.4,
+      "toluene": 5.5,
+      "uracil": 9.5
+    }
+  },
+  "config": {
+    "molecule": "ethanol",
+    "all_molecules": true,
+    "models": [
+      "hybrid_hcnet_energy",
+      "egnn"
+    ],
+    "n_train": 9500,
+    "n_val": 500,
+    "n_test": 1000,
+    "n_epochs": 100,
+    "batch_size": 32,
+    "hidden_dim": 128,
+    "lr": 0.001,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "device": "cuda"
+  }
+}
