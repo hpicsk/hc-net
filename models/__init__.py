@@ -5,6 +5,7 @@ Provides complete network architectures for:
 - N-body physics prediction (2D and 3D)
 - Molecular force prediction (MD17)
 - Hybrid local MPNN + global Clifford mean-field
+- Image classification (HCNetResNet, BaselineResNet)
 - EGNN, CGENN, NequIP baselines
 """
 
@@ -101,5 +102,19 @@ except ImportError:
 try:
     from .nequip_nbody import NequIPNBodyNet, NequIPNBodyNetSimple
     __all__ += ['NequIPNBodyNet', 'NequIPNBodyNetSimple']
+except ImportError:
+    pass
+
+# Image classification models
+try:
+    from .hcnet_resnet import HCNetResNet, HCNetResNetSmall
+    from .baseline_resnet import BaselineResNet, BaselineResNetSmall
+    PCNNResNet = HCNetResNet
+    PCNNResNetSmall = HCNetResNetSmall
+    __all__ += [
+        'HCNetResNet', 'HCNetResNetSmall',
+        'BaselineResNet', 'BaselineResNetSmall',
+        'PCNNResNet', 'PCNNResNetSmall',
+    ]
 except ImportError:
     pass

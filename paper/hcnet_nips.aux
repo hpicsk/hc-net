@@ -46,30 +46,36 @@
 \citation{batatia2022mace}
 \citation{schutt2021equivariant}
 \citation{schutt2017schnet}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 3D N-body classification accuracy (\%) and model complexity. Mean-field classifiers confirm the grade hierarchy; the full hybrid architecture achieves 100\% on both tasks.}}{5}{table.caption.3}\protected@file@percent }
-\newlabel{tab:nbody}{{3}{5}{3D N-body classification accuracy (\%) and model complexity. Mean-field classifiers confirm the grade hierarchy; the full hybrid architecture achieves 100\% on both tasks}{table.caption.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Grade hierarchy in $\mathrm  {Cl}(3,0)$: classification accuracy on chirality (spiral) and rotation direction tasks. Vectors (grade 0+1) fail at both tasks ($\sim $50\%); bivectors detect rotation but not chirality; trivectors detect chirality but not rotation. Only the learned projection succeeds at both.}}{5}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:grade_hierarchy}{{1}{5}{Grade hierarchy in $\Cl (3,0)$: classification accuracy on chirality (spiral) and rotation direction tasks. Vectors (grade 0+1) fail at both tasks ($\sim $50\%); bivectors detect rotation but not chirality; trivectors detect chirality but not rotation. Only the learned projection succeeds at both}{figure.caption.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces 3D N-body classification accuracy (\%) and model complexity. Mean-field classifiers confirm the grade hierarchy; the full hybrid architecture achieves 100\% on both tasks.}}{5}{table.caption.4}\protected@file@percent }
+\newlabel{tab:nbody}{{3}{5}{3D N-body classification accuracy (\%) and model complexity. Mean-field classifiers confirm the grade hierarchy; the full hybrid architecture achieves 100\% on both tasks}{table.caption.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Experiment 4: MD17 Force Prediction}{5}{subsection.4.4}\protected@file@percent }
 \newlabel{sec:exp4}{{4.4}{5}{Experiment 4: MD17 Force Prediction}{subsection.4.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces MD17 force prediction: MAE (meV/\r A{}, lower is better). HC-Net outperforms EGNN on all molecules except benzene. Published SOTA methods (NequIP, MACE) use specialized spherical harmonic representations.}}{5}{table.caption.4}\protected@file@percent }
-\newlabel{tab:md17}{{4}{5}{MD17 force prediction: MAE (meV/\AA {}, lower is better). HC-Net outperforms EGNN on all molecules except benzene. Published SOTA methods (NequIP, MACE) use specialized spherical harmonic representations}{table.caption.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Experiment 5: Computational Scaling}{5}{subsection.4.5}\protected@file@percent }
-\newlabel{sec:exp5}{{4.5}{5}{Experiment 5: Computational Scaling}{subsection.4.5}{}}
 \citation{ruhe2023clifford}
 \citation{satorras2021n}
 \citation{batzner2022nequip}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Scaling analysis: forward time (ms) and fitted complexity $\alpha $. EGNN runs out of memory (OOM) at $N \geq 500$. HC-Net scales to $N = 5000$ at $\mathcal  {O}(N)$.}}{6}{table.caption.5}\protected@file@percent }
-\newlabel{tab:scaling}{{5}{6}{Scaling analysis: forward time (ms) and fitted complexity $\alpha $. EGNN runs out of memory (OOM) at $N \geq 500$. HC-Net scales to $N = 5000$ at $\mathcal {O}(N)$}{table.caption.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces MD17 force prediction: MAE (meV/\r A{}, lower is better). HC-Net outperforms EGNN on all molecules except benzene. Published SOTA methods (NequIP, MACE) use specialized spherical harmonic representations.}}{6}{table.caption.5}\protected@file@percent }
+\newlabel{tab:md17}{{4}{6}{MD17 force prediction: MAE (meV/\AA {}, lower is better). HC-Net outperforms EGNN on all molecules except benzene. Published SOTA methods (NequIP, MACE) use specialized spherical harmonic representations}{table.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces MD17 force prediction: test MSE (log scale) by molecule. HC-Net consistently achieves the lowest error across molecules, outperforming EGNN, CliffordNet, and the MLP baseline.}}{6}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:md17_molecules}{{2}{6}{MD17 force prediction: test MSE (log scale) by molecule. HC-Net consistently achieves the lowest error across molecules, outperforming EGNN, CliffordNet, and the MLP baseline}{figure.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Experiment 5: Computational Scaling}{6}{subsection.4.5}\protected@file@percent }
+\newlabel{sec:exp5}{{4.5}{6}{Experiment 5: Computational Scaling}{subsection.4.5}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Experiment 6: 3D SOTA Comparison}{6}{subsection.4.6}\protected@file@percent }
 \newlabel{sec:exp6}{{4.6}{6}{Experiment 6: 3D SOTA Comparison}{subsection.4.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 3D N-body prediction: test MSE ($\times 10^{-6}$, lower is better). HC-Net achieves the best accuracy at small training sizes with the fewest parameters.}}{6}{table.caption.6}\protected@file@percent }
-\newlabel{tab:sota}{{6}{6}{3D N-body prediction: test MSE ($\times 10^{-6}$, lower is better). HC-Net achieves the best accuracy at small training sizes with the fewest parameters}{table.caption.6}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Experiment 7: Ablation Study}{6}{subsection.4.7}\protected@file@percent }
-\newlabel{sec:exp7}{{4.7}{6}{Experiment 7: Ablation Study}{subsection.4.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Component ablation on MD17 ethanol. Removing local MPNN or residual connections is catastrophic ($>$550\% MSE increase). The full model achieves MSE = 0.141.}}{7}{table.caption.7}\protected@file@percent }
-\newlabel{tab:ablation}{{7}{7}{Component ablation on MD17 ethanol. Removing local MPNN or residual connections is catastrophic ($>$550\% MSE increase). The full model achieves MSE = 0.141}{table.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Architecture sweep on MD17 ethanol (single seed). The optimal configuration uses 2 layers and hidden dimension 64, achieving lower MSE than the default (4 layers, 128 hidden) with $2\times $ fewer parameters.}}{7}{table.caption.8}\protected@file@percent }
-\newlabel{tab:arch_sweep}{{8}{7}{Architecture sweep on MD17 ethanol (single seed). The optimal configuration uses 2 layers and hidden dimension 64, achieving lower MSE than the default (4 layers, 128 hidden) with $2\times $ fewer parameters}{table.caption.8}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{7}{section.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Scaling analysis: forward time (ms) and fitted complexity $\alpha $. EGNN runs out of memory (OOM) at $N \geq 500$. HC-Net scales to $N = 5000$ at $\mathcal  {O}(N)$.}}{7}{table.caption.7}\protected@file@percent }
+\newlabel{tab:scaling}{{5}{7}{Scaling analysis: forward time (ms) and fitted complexity $\alpha $. EGNN runs out of memory (OOM) at $N \geq 500$. HC-Net scales to $N = 5000$ at $\mathcal {O}(N)$}{table.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Computational scaling: forward pass time (ms, log scale) vs.\ number of particles (log scale). HC-Net maintains near-linear scaling, while EGNN runs out of memory at $N \geq 500$ (not shown).}}{7}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:scaling}{{3}{7}{Computational scaling: forward pass time (ms, log scale) vs.\ number of particles (log scale). HC-Net maintains near-linear scaling, while EGNN runs out of memory at $N \geq 500$ (not shown)}{figure.caption.8}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces 3D N-body prediction: test MSE ($\times 10^{-6}$, lower is better). HC-Net achieves the best accuracy at small training sizes with the fewest parameters.}}{7}{table.caption.9}\protected@file@percent }
+\newlabel{tab:sota}{{6}{7}{3D N-body prediction: test MSE ($\times 10^{-6}$, lower is better). HC-Net achieves the best accuracy at small training sizes with the fewest parameters}{table.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Experiment 7: Ablation Study}{7}{subsection.4.7}\protected@file@percent }
+\newlabel{sec:exp7}{{4.7}{7}{Experiment 7: Ablation Study}{subsection.4.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Component ablation on MD17 ethanol. Removing local MPNN or residual connections is catastrophic ($>$550\% MSE increase). The full model achieves MSE = 0.141.}}{8}{table.caption.10}\protected@file@percent }
+\newlabel{tab:ablation}{{7}{8}{Component ablation on MD17 ethanol. Removing local MPNN or residual connections is catastrophic ($>$550\% MSE increase). The full model achieves MSE = 0.141}{table.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Architecture sweep on MD17 ethanol (single seed). The optimal configuration uses 2 layers and hidden dimension 64, achieving lower MSE than the default (4 layers, 128 hidden) with $2\times $ fewer parameters.}}{8}{table.caption.11}\protected@file@percent }
+\newlabel{tab:arch_sweep}{{8}{8}{Architecture sweep on MD17 ethanol (single seed). The optimal configuration uses 2 layers and hidden dimension 64, achieving lower MSE than the default (4 layers, 128 hidden) with $2\times $ fewer parameters}{table.caption.11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{8}{section.5}\protected@file@percent }
 \bibstyle{plain}
 \bibdata{references}
 \bibcite{batatia2022mace}{1}
@@ -78,14 +84,14 @@
 \bibcite{chmiela2017machine}{4}
 \bibcite{doran2003geometric}{5}
 \bibcite{fuchs2020se3}{6}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{9}{section.6}\protected@file@percent }
 \bibcite{hestenes1984clifford}{7}
 \bibcite{kang2026hcnet}{8}
 \bibcite{ruhe2023clifford}{9}
 \bibcite{satorras2021n}{10}
 \bibcite{schutt2017schnet}{11}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{8}{section.6}\protected@file@percent }
 \bibcite{schutt2021equivariant}{12}
 \bibcite{lgatr2024}{13}
 \bibcite{szarvas2025conditional}{14}
 \bibcite{thomas2018tensor}{15}
-\gdef \@abspage@last{9}
+\gdef \@abspage@last{10}

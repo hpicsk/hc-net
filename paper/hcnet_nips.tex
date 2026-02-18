@@ -259,6 +259,13 @@ Learned & 16D & \textbf{100.0 $\pm$ 0.0\%} & 100.0 $\pm$ 0.1\% & \textbf{100.0 $
 \end{tabular}
 \end{table}
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{fig_grade_hierarchy.pdf}
+\caption{Grade hierarchy in $\Cl(3,0)$: classification accuracy on chirality (spiral) and rotation direction tasks. Vectors (grade 0+1) fail at both tasks ($\sim$50\%); bivectors detect rotation but not chirality; trivectors detect chirality but not rotation. Only the learned projection succeeds at both.}
+\label{fig:grade_hierarchy}
+\end{figure}
+
 \textbf{Key findings:}
 \begin{enumerate}[nosep]
     \item \textbf{Vectors fail at all tasks} ($\sim$50\%), confirming that vector averaging collapse extends to 3D.
@@ -332,6 +339,13 @@ Benzene     & 572.4 & \textbf{631.8} & 0.3  & 0.3  & 0.8  & 1.7  \\
 \small{$^\dagger$Published baselines at 9500 train~\cite{batzner2022nequip, batatia2022mace, schutt2021equivariant, schutt2017schnet}; not retrained.}
 \end{table}
 
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{fig_md17_molecules.pdf}
+\caption{MD17 force prediction: test MSE (log scale) by molecule. HC-Net consistently achieves the lowest error across molecules, outperforming EGNN, CliffordNet, and the MLP baseline.}
+\label{fig:md17_molecules}
+\end{figure}
+
 \textbf{Analysis.}
 HC-Net outperforms EGNN by $5\text{--}21\times$ on 7 of 8 molecules, demonstrating the value of the hybrid local-global architecture.
 Benzene is an exception: its high D$_{6h}$ symmetry produces near-zero forces, making force prediction degenerate (both models fail).
@@ -365,6 +379,13 @@ MLP         & 0.3  & 0.3  & 0.3  & 0.3   & 0.3   & 0.3   & 0.3   & 0.01 \\
 \vspace{0.3em}
 \small{$^*$Fitted from $N = 10, 50, 100$ only (OOM at $N \geq 500$ on 80GB A100).}
 \end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{fig_scaling.pdf}
+\caption{Computational scaling: forward pass time (ms, log scale) vs.\ number of particles (log scale). HC-Net maintains near-linear scaling, while EGNN runs out of memory at $N \geq 500$ (not shown).}
+\label{fig:scaling}
+\end{figure}
 
 EGNN's $\mathcal{O}(N^2)$ pairwise message passing exhausts GPU memory at $N = 500$, while HC-Net scales comfortably to $N = 5000$ with only $2.4\times$ the time of CliffordNet.
 This is the key practical advantage: for large molecular systems (proteins, materials), $\mathcal{O}(N)$ scaling is essential.
